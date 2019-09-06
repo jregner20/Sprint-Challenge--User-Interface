@@ -101,10 +101,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,10 +111,45 @@ p {
     justify-content: center;
 }
 
+.boxes .box1{
+  background: teal;
+}
 
+.boxes .box2{
+ background: gold;
+}
 
+.boxes .box3{
+ background: cadetblue;
+}
 
+.boxes .box4{
+ background: coral;
+}
 
+.boxes .box5{
+ background: crimson;
+}
+
+.boxes .box6{
+ background: forestgreen;
+}
+
+.boxes .box7{
+ background: darkorchid
+}
+
+.boxes .box8{
+ background: hotpink
+}
+
+.boxes .box9{
+ background: indigo
+}
+
+.boxes .box10{
+ background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
