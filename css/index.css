@@ -112,6 +112,11 @@ p {
     justify-content: center;
 }
 
+
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -156,14 +161,43 @@ footer nav a {
 
 nav {
  display: flex;
- justify-content: flex-start;
+ justify-content: space-between;
  align-items: center;
  padding: 10px;
- margin: 20px;
+ margin: 0px 400px 0 400px;
+ font-size: 14px;
+ color:black;
+}
+
+.lambda-logo{
+ justify-content: flex-start;
 }
 
 .img-div{
  display: flex;
  justify-content: center;
  padding: 20px 0 20px 0;
+}
+
+.about-part{
+ border-bottom: solid black;
+ margin-bottom: 50px; 
+}
+
+.parent-flex{
+   display: flex; 
+}
+
+.child-flex{
+ border-bottom: solid black;
+ padding-bottom: 20px;
+ margin-bottom: 50px;
+}
+
+.work-together{
+ padding-bottom: 50px;   
+}
+
+.button{
+ border: 1px solid black;
 }
