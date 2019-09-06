@@ -223,18 +223,23 @@ nav img {
 }
 
 .about-part{
- border-bottom: solid black;
- margin-bottom: 50px; 
+ border-bottom: dotted black;
+ margin-bottom: 50px;
+ padding-bottom: 25px;
 }
 
 .parent-flex{
-   display: flex; 
+ display: flex; 
 }
 
 .child-flex{
- border-bottom: solid black;
+ border-bottom: dotted black;
  padding-bottom: 20px;
  margin-bottom: 50px;
+}
+
+h3 {
+ padding-top: 10px;  
 }
 
 .work-together{
@@ -242,5 +247,10 @@ nav img {
 }
 
 .button{
- border: 1px solid black;
+ border: 3px solid black;
+ margin-top: 10px;
+ background: white;
+ padding: 10px 30px;
+ border-radius: 10px;
+ font-weight: bold;
 }
