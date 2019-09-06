@@ -197,10 +197,18 @@ nav {
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding: 10px;
- margin: 0px 400px 0 400px;
+ margin: 20px 700px 0 342px;
+ padding: 0 50px 0 0;
  font-size: 14px;
- color:black;
+ width: 800px
+}
+
+nav a {
+ color: black;
+}
+
+nav img {
+  justify-content: flex-start  
 }
 
 .lambda-logo{
