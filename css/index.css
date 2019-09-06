@@ -196,9 +196,9 @@ footer nav a {
 header nav {
  display: flex;
  justify-content: space-between;
- align-items: center;
+ align-items: baseline;
  margin: 20px 700px 0 342px;
- padding: 0 50px 0 0;
+ padding: 0 50px 20px 0;
  font-size: 14px;
  width: 800px
 }
