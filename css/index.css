@@ -150,3 +150,20 @@ footer nav a {
  justify-content: space-around;
  align-items: center;
 } */
+
+.entire-container {
+}
+
+nav {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ padding: 10px;
+ margin: 20px;
+}
+
+.img-div{
+ display: flex;
+ justify-content: center;
+ padding: 20px 0 20px 0;
+}
